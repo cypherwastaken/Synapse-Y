@@ -1,0 +1,15 @@
+Execute/Clear scripts: https://pastebin.com/iLHxH1Jg
+TimerTick Scripts: https://pastebin.com/mcyvuLMz
+TimerTick Example:
+private async void timertick(object sender, EventArgs e)
+{
+    if (ForlornApi.Api.IsInjected()) {
+        whatever you put in this field will be looped, its useful for changing text to say "Injected" once it has injected into Roblox.
+    }
+}
+
+Also on the EditorBrowser.Document.InvokeScript make sure to change EditorBrowser to your browsername if ur using monaco
+
+Monaco URL: https://zumixmonacoeditor.vercel.app/ (dont spam pls im not tryna get rate-limited, max is like 2000 users every 2 minutes or sum dumb shit)
+
+MAKE SURE TO INCLUDE THE "bin" FOLDER IN THE DIRECTORY YOU PUT YOUR EXECUTOR .EXE IN, IT WONT WORK WITHOUT IT
